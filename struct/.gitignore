@@ -4,10 +4,16 @@ target/
 !**/src/test/**/target/
 
 ### IntelliJ IDEA ###
+# Ignorar diretórios de configuração da IDE
+.idea/
+
+# Ignorar arquivos específicos de configuração do projeto
 .idea/modules.xml
 .idea/jarRepositories.xml
 .idea/compiler.xml
 .idea/libraries/
+
+# Ignorar arquivos do projeto
 *.iws
 *.iml
 *.ipr
